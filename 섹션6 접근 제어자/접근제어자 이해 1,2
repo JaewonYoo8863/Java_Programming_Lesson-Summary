@@ -1,0 +1,8 @@
+접근 제어자가 필효한 이유
+다른 필드에서 클래스 외부에서 접근하지 못하게 하기 위해(오류가 날 수도 있음)
+
+컴파일 오류 메시지
+```
+volume has private access in access.Speaker
+
+volume 필드는 private로 설정하면 외부에서 접근할 때 이런 컴파일 에러 메시지가 뜬다.
